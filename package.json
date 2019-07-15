@@ -1,0 +1,24 @@
+{
+  "name": "garlandtools-api",
+  "version": "0.1.0",
+  "description": "An unofficial Node wrapper for the Garland Tools API.",
+  "main": "garlandtools-api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karashiiro/garlandtools-api.git"
+  },
+  "author": "karashiiro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/karashiiro/garlandtools-api/issues"
+  },
+  "homepage": "https://github.com/karashiiro/garlandtools-api#readme",
+  "dependencies": {
+    "cron": "^1.7.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  }
+}
