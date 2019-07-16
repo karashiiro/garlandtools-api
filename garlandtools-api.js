@@ -24,7 +24,8 @@ const mapURL = `https://www.garlandtools.org/files/maps/`;
 const mobURL = `https://www.garlandtools.org/db/doc/mob/${this.lang}/2/`;
 const mobsURL = `https://www.garlandtools.org/db/doc/browse/${this.lang}/2/mob.json`;
 const nodeURL = `https://www.garlandtools.org/db/doc/browse/${this.lang}/2/node.json`;
-const npcURL = `https://www.garlandtools.org/db/doc/browse/${this.lang}/2/npc.json`;
+const npcURL = `https://www.garlandtools.org/db/doc/npc/${this.lang}/2/`;
+const npcsURL = `https://www.garlandtools.org/db/doc/browse/${this.lang}/2/npc.json`;
 const searchURL = `https://www.garlandtools.org/api/search.php`;
 const statusURL = `https://www.garlandtools.org/db/doc/browse/${this.lang}/2/status.json`;
 const questURL = `https://www.garlandtools.org/db/doc/browse/${this.lang}/2/quest.json`;
@@ -253,12 +254,24 @@ module.exports.nodes = async () => {
 };
 
 /**
+ * @param id The NPC's ID.
+ * @returns An NPC's JSON listing.
+ */
+module.exports.mob = async (id) => {
+    return new Promise(async (resolve, reject) => {
+        let response;
+        response = JSON.parse(await cache(npcURL + `${id}.json`));
+        resolve(response);
+    });
+};
+
+/**
  * @returns The NPC JSON index.
  */
 module.exports.npcs = async () => {
     return new Promise(async (resolve, reject) => {
         let response;
-        response = JSON.parse(await cache(npcURL)).browse;
+        response = JSON.parse(await cache(npcsURL)).browse;
         resolve(response);
     });
 };
