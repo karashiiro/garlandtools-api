@@ -257,7 +257,7 @@ module.exports.nodes = async () => {
  * @param id The NPC's ID.
  * @returns An NPC's JSON listing.
  */
-module.exports.mob = async (id) => {
+module.exports.npc = async (id) => {
     return new Promise(async (resolve, reject) => {
         let response;
         response = JSON.parse(await cache(npcURL + `${id}.json`));
