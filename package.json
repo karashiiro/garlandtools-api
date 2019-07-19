@@ -1,6 +1,6 @@
 {
   "name": "garlandtools-api",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "An unofficial Node wrapper for the Garland Tools API.",
   "main": "garlandtools-api.js",
   "scripts": {
