@@ -4,6 +4,10 @@ An unofficial Node wrapper for the Garland Tools API. It's still in need of test
 It's asynchronous and promisified for your convenience.
 # Usage
 ```
+npm install garlandtools-api
+```
+
+```
 const garlandtools = require('garlandtools-api');
 ```
 
