@@ -35,10 +35,9 @@ Get an NPC's data:
 ## Full property list
 ```
 // Wrapper properties
-lang; // The lanugage. By default, this is "en".
-
 clearCache(); // Clears the wrapper's cache manually.
 setCacheTime(time); // Set the time to store data in milliseconds. By default, this is 1 hour.
+setLang(lang); // Set the lanugage. By default, this is "en".
 // API accessors
 achievement(id); // An achievement's JSON listing.
 achievements(); // The achievement JSON index.
