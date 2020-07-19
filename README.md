@@ -1,5 +1,5 @@
 # garlandtools-api
-An unofficial Node wrapper for the Garland Tools API. It's still in need of testing :v
+An unofficial Node wrapper for the Garland Tools API.
 
 It's asynchronous and promisified for your convenience.
 # Usage
