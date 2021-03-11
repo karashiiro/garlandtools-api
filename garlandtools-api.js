@@ -10,7 +10,6 @@ let lang = "en";
 
 export function setLang(newLang) {
     lang = newLang;
-    console.log(achievementURL());
 }
 
 const achievementURL = () => `/db/doc/achievement/${lang}/2/`;
