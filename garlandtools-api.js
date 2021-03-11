@@ -8,6 +8,10 @@ const garlandTools = bent("https://www.garlandtools.org", "GET", "json", 200)
 
 let lang = "en";
 
+/**
+ * Set the language used by the library.
+ * @param {"en" | "de" | "fr" | "ja"} newLang
+ */
 export function setLang(newLang) {
     lang = newLang;
 }
