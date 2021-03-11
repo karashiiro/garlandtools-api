@@ -1,6 +1,6 @@
 {
   "name": "garlandtools-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An unofficial Node wrapper for the Garland Tools API.",
   "main": "build/garlandtools-api.js",
   "scripts": {
@@ -19,16 +19,16 @@
   },
   "homepage": "https://github.com/karashiiro/garlandtools-api#readme",
   "dependencies": {
-    "bent": "^7.3.7",
-    "cron": "^1.7.1",
-    "regenerator-runtime": "^0.13.5"
+    "bent": "^7.3.12",
+    "cron": "^1.8.2",
+    "regenerator-runtime": "^0.13.7"
   },
   "devDependencies": {
-    "@babel/cli": "^7.10.5",
-    "@babel/core": "^7.10.5",
-    "@babel/preset-env": "^7.10.4",
-    "@babel/register": "^7.10.5",
-    "mocha": "^8.0.1",
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "@babel/register": "^7.13.8",
+    "mocha": "^8.3.1",
     "should": "^13.2.3"
   }
 }
