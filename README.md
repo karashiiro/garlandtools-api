@@ -1,7 +1,6 @@
 # garlandtools-api
-An unofficial Node wrapper for the Garland Tools API.
+Unofficial Node wrapper for the Garland Tools API.
 
-It's asynchronous and promisified for your convenience.
 # Usage
 ```
 npm install garlandtools-api
